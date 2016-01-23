@@ -6,7 +6,7 @@ the account identifier (I personally just use website name).
 ______________________________________________
 Example in terminal:
 
-$ **python junkPasswordGen0.py **
+$ python junkPasswordGen0.py 
 
 please enter you secret phrase>**This is the only phrase I need to know to get my passwords.**
 
@@ -18,7 +18,7 @@ Tux9avjXsgffb1_
 ___________________________________________
 Another example:
 
-$ ** python junkPasswordGen0.py **
+$  python junkPasswordGen0.py 
 
 please enter you secret phrase>**This is the only phrase I need to know to get my passwords.**
 
@@ -30,7 +30,7 @@ ZZ5Lq@OS2E1wjG
 ___________________________________________
 Another example:
 
-$**python junkPasswordGen0.py**
+$python junkPasswordGen0.py
 
 please enter you secret phrase>**This is the only phrase I need to know to get my passwords.**
 
