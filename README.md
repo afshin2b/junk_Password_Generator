@@ -3,7 +3,7 @@ Short:
 This is a simple python program which helps create a new random looking password from a master password.
 It generates a password using a master password (you only need to remember one strong phrase as opposed to many ones) and 
 the account identifier (I personally just use website name). 
-
+______________________________________________
 Example in terminal:
 
 $python junkPasswordGen0.py 
@@ -11,7 +11,7 @@ please enter you secret phrase>This is the only phrase I need to know to get my 
 Enter the website>github
 This is your password for  github :
 Tux9avjXsgffb1_
-
+___________________________________________
 Another example:
 $ python junkPasswordGen0.py 
 please enter you secret phrase>This is the only phrase I need to know to get my passwords.
