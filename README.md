@@ -58,5 +58,5 @@ The wheels on the bus go round and round!
 E=mc^2 is the most famous equation.
 
 
-The password is created by encrypting the website with SHA256(master key) as the key using AES-128
+Password= AES-128_Encrypt( SHA-256(MasterKey), website )
 
