@@ -1,4 +1,6 @@
 # junk_Password_Generator
+You need pyCrypto library to run the code.
+______________________________________________
 Short:
 This is a simple python program which helps create a new random looking password from a master password.
 It generates a password using a master password (you only need to remember one strong phrase as opposed to many ones) and 
