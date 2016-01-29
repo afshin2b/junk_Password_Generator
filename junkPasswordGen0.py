@@ -11,6 +11,7 @@ def GenPassword(masterKey,website):
 	key=Hash(masterKey)
 	website=pad(website)
 	p = AES.new(key.digest()[0:16],AES.MODE_CBC,key.digest()[16:]).encrypt(website)
+	## Using CTR mode instead of CBS is insecure (Two time pad)
 	encoded = base64.b64encode(p,"_@")
 	encoded=encoded[0:14]	#some sites have max 16 chars, two left aside for spec char and num
 	if encoded.isalpha():
